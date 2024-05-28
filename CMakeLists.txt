@@ -1,7 +1,3 @@
-add_subdirectory(Interface)
-add_subdirectory(Module)
-add_subdirectory(Objects)
-
 art_make( 
 		LIB_LIBRARIES
             ${ROOT_BASIC_LIB_LIST}

@@ -16,20 +16,25 @@
 #include "art/Framework/Services/Optional/TFileService.h"
 #include "art/Framework/Services/Optional/TFileDirectory.h"
 #include "canvas/Persistency/Common/FindManyP.h"
-#include "canvas/Persistency/Common/FindMany.h"				
+#include "canvas/Persistency/Common/FindMany.h"		
 
-#include "larcoreobj/SummaryData/POTSummary.h"
-#include "lardataobj/RecoBase/Wire.h"
-#include "larsim/EventWeight/Base/MCEventWeight.h"
+#include "nusimdata/SimulationBase/MCParticle.h"
 #include "nusimdata/SimulationBase/MCTrajectory.h"
+
+#include "lardataobj/RecoBase/PFParticle.h"
+#include "lardataobj/RecoBase/Track.h"
+#include "lardataobj/RecoBase/Shower.h"
+#include "lardataobj/RecoBase/Hit.h"
+#include "lardataobj/RecoBase/Vertex.h"
+#include "lardataobj/RecoBase/PFParticleMetadata.h"
+#include "lardataobj/AnalysisBase/BackTrackerMatchingData.h"
+#include "lardataobj/AnalysisBase/ParticleID.h"
+#include "lardataobj/AnalysisBase/Calorimetry.h"
+#include "larevt/SpaceChargeServices/SpaceChargeService.h"
 
 #include "TTree.h"
 #include "TVector3.h"
 #include "TLorentzVector.h"
-
-#include "Objects/Include/Trajectory.h"
-#include "Module/Include/PionSimulationAnalyser.h"
-#include "Module/Include/PionReconstructionAnalyser.h"
 
 namespace ubpiontraj 
 {
@@ -46,7 +51,7 @@ class ubpiontraj::PionMomentumLikelihood : public art::EDAnalyzer
       PionMomentumLikelihood& operator=(PionMomentumLikelihood const&) = delete;
       PionMomentumLikelihood& operator=(PionMomentumLikelihood&&) = delete;
 
-      void analyze(art::Event const& e) override;
+      void analyze(art::Event const& event) override;
 
       void beginJob() override;
       void endJob() override;
@@ -66,6 +71,27 @@ class ubpiontraj::PionMomentumLikelihood : public art::EDAnalyzer
 
       std::string m_RecoCaloLabel;
       bool m_Debug;
+
+      art::Handle<std::vector<simb::MCParticle>> m_SimParticleHandle;
+
+      std::vector<art::Ptr<simb::MCParticle>> m_SimParticles;
+      std::map<int, art::Ptr<simb::MCParticle>> m_SimParticleMap;
+
+      art::Handle<std::vector<recob::PFParticle>> m_RecoParticleHandle;
+      std::vector<art::Ptr<recob::PFParticle>> m_RecoParticles;
+
+      art::Handle<std::vector<recob::Track>> m_RecoTrackHandle;
+      std::vector<art::Ptr<recob::Track>> m_RecoTracks;
+
+      art::Handle<std::vector<recob::Hit>> m_RecoHitHandle;
+      std::vector<art::Ptr<recob::Hit>> m_RecoHits;
+
+      art::FindManyP<recob::Track>* m_RecoParticleTrackAssoc;
+      art::FindManyP<recob::Hit>* m_RecoTrackHitAssoc;
+
+      art::FindMany<simb::MCParticle, anab::BackTrackerHitMatchingData>* m_RecoHitSimParticleAssoc;
+
+      art::FindManyP<anab::Calorimetry>* m_RecoTrackCaloAssoc;
       
       TTree* m_SpTree;
    
