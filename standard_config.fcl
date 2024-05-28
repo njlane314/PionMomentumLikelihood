@@ -1,0 +1,16 @@
+BEGIN_PROLOG
+
+pion_momentum_likelihood:
+{
+        module_type: PionMomentumLikelihood
+        sim_particle_label: "largeant"
+        reco_particle_label: "pandora"
+        reco_track_label: "pandora"
+        reco_hit_label: "gaushit"
+        reco_tracksimparticlelabel: "pandora"
+        reco_hitsimparticle_label: "gaushitTruthMatch"
+        reco_calo_label: "pandoracali"
+        debug: true
+}
+
+END_PROLOG
