@@ -93,10 +93,10 @@ class ubpiontraj::PionMomentumLikelihood : public art::EDAnalyzer
 
       art::FindManyP<anab::Calorimetry>* m_RecoTrackCaloAssoc;
       
+      TTree* m_SimTree;
       TTree* m_SpTree;
-   
-      int m_sp_n;
-      double m_sp_p;
+
+      double m_sim_p, m_sim_w;
       std::vector<double> m_sp_x, m_sp_y, m_sp_z, m_sp_e;
 };
 
