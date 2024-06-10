@@ -1,3 +1,4 @@
+// lar -c run_PionMomentumLikelihood.fcl -s Data/PhysicsRun-2016_7_29_22_26_32-0007003-01286_20160805T195522_ext_unbiased_20160806T215518_merged_20231124T135742_simmxd_detsim_mix_r1a_r1b_20231124T175_a4687571-abb8-4bf6-8fd9-38e59ea36114.root 
 #include "PionMomentumLikelihood.h"
 //_________________________________________________________________________________________
 ubpiontraj::PionMomentumLikelihood::PionMomentumLikelihood(fhicl::ParameterSet const& p) : 
@@ -80,6 +81,7 @@ void ubpiontraj::PionMomentumLikelihood::analyze(art::Event const& event)
    }
 
    for(art::Ptr<simb::MCParticle>& simParticle : m_SimParticles){
+      if(simParticle->Mother() != 0)  continue;
       if(abs(simParticle->PdgCode()) == 211 && (simParticle->Process() == "decay" || simParticle->Process() == "primary")){
          if(m_Debug){
             std::cout << ">>> [PionMomentumLikelihood] Found pion!" << std::endl;
