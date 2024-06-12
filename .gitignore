@@ -1,3 +1,4 @@
 *.root
 *.db
 Analysis/Plots/*
+Extern/*
