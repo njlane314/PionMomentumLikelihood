@@ -1,3 +1,0 @@
-/exp/uboone/app/users/nlane/NeutralKaonCode/srcs/ubana/ubana/PionMomentumLikelihood/Transformer/build/CMakeFiles/main.dir
-/exp/uboone/app/users/nlane/NeutralKaonCode/srcs/ubana/ubana/PionMomentumLikelihood/Transformer/build/CMakeFiles/edit_cache.dir
-/exp/uboone/app/users/nlane/NeutralKaonCode/srcs/ubana/ubana/PionMomentumLikelihood/Transformer/build/CMakeFiles/rebuild_cache.dir
