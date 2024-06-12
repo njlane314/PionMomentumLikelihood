@@ -28,10 +28,10 @@ The CXX compiler identification is GNU, found in "/exp/uboone/app/users/nlane/Ne
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs/ubana/ubana/PionMomentumLikelihood/Transformer/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e6ab6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e6ab6.dir/build.make CMakeFiles/cmTC_e6ab6.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aba1c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aba1c.dir/build.make CMakeFiles/cmTC_aba1c.dir/build
 gmake[1]: Entering directory `/exp/uboone/app/users/nlane/NeutralKaonCode/srcs/ubana/ubana/PionMomentumLikelihood/Transformer/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e6ab6.dir/CMakeCCompilerABI.c.o
-/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/cc   -v -o CMakeFiles/cmTC_e6ab6.dir/CMakeCCompilerABI.c.o -c /cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_aba1c.dir/CMakeCCompilerABI.c.o
+/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/cc   -v -o CMakeFiles/cmTC_aba1c.dir/CMakeCCompilerABI.c.o -c /cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/share/cmake-3.24/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/cc
 Target: x86_64-pc-linux-gnu
@@ -39,8 +39,8 @@ Configured with: /scratch/workspace/art-build-base/v12_00_00-e26/SLF7/build/gcc/
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 12.1.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6ab6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e6ab6.dir/'
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/cc1 -quiet -v -iprefix /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/ /cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e6ab6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccNgMgxT.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aba1c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_aba1c.dir/'
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/cc1 -quiet -v -iprefix /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/ /cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_aba1c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccaIfKc8.s
 GNU C17 (GCC) version 12.1.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 12.1.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -63,15 +63,15 @@ GNU C17 (GCC) version 12.1.0 (x86_64-pc-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: ce702590689113c77b9777e394cd57cb
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6ab6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e6ab6.dir/'
- as -v --64 -o CMakeFiles/cmTC_e6ab6.dir/CMakeCCompilerABI.c.o /tmp/ccNgMgxT.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aba1c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_aba1c.dir/'
+ as -v --64 -o CMakeFiles/cmTC_aba1c.dir/CMakeCCompilerABI.c.o /tmp/ccaIfKc8.s
 GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
 COMPILER_PATH=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/
 LIBRARY_PATH=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6ab6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e6ab6.dir/CMakeCCompilerABI.c.'
-Linking C executable cmTC_e6ab6
-/cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6ab6.dir/link.txt --verbose=1
-/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/cc  -v -rdynamic CMakeFiles/cmTC_e6ab6.dir/CMakeCCompilerABI.c.o -o cmTC_e6ab6 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aba1c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_aba1c.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_aba1c
+/cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aba1c.dir/link.txt --verbose=1
+/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/cc  -v -rdynamic CMakeFiles/cmTC_aba1c.dir/CMakeCCompilerABI.c.o -o cmTC_aba1c 
 Using built-in specs.
 COLLECT_GCC=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/cc
 COLLECT_LTO_WRAPPER=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper
@@ -82,9 +82,9 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 12.1.0 (GCC) 
 COMPILER_PATH=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/
 LIBRARY_PATH=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e6ab6' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e6ab6.'
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4FEuwU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e6ab6 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. CMakeFiles/cmTC_e6ab6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtend.o /lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e6ab6' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e6ab6.'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_aba1c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_aba1c.'
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTvm34a.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_aba1c /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. CMakeFiles/cmTC_aba1c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_aba1c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_aba1c.'
 gmake[1]: Leaving directory `/exp/uboone/app/users/nlane/NeutralKaonCode/srcs/ubana/ubana/PionMomentumLikelihood/Transformer/build/CMakeFiles/CMakeTmp'
 
 
@@ -112,10 +112,10 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs/ubana/ubana/PionMomentumLikelihood/Transformer/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e6ab6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e6ab6.dir/build.make CMakeFiles/cmTC_e6ab6.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aba1c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aba1c.dir/build.make CMakeFiles/cmTC_aba1c.dir/build]
   ignore line: [gmake[1]: Entering directory `/exp/uboone/app/users/nlane/NeutralKaonCode/srcs/ubana/ubana/PionMomentumLikelihood/Transformer/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_e6ab6.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/cc   -v -o CMakeFiles/cmTC_e6ab6.dir/CMakeCCompilerABI.c.o -c /cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_aba1c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/cc   -v -o CMakeFiles/cmTC_aba1c.dir/CMakeCCompilerABI.c.o -c /cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/cc]
   ignore line: [Target: x86_64-pc-linux-gnu]
@@ -123,8 +123,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 12.1.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6ab6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e6ab6.dir/']
-  ignore line: [ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/cc1 -quiet -v -iprefix /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/ /cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e6ab6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccNgMgxT.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aba1c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_aba1c.dir/']
+  ignore line: [ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/cc1 -quiet -v -iprefix /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/ /cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_aba1c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccaIfKc8.s]
   ignore line: [GNU C17 (GCC) version 12.1.0 (x86_64-pc-linux-gnu)]
   ignore line: [	compiled by GNU C version 12.1.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -147,15 +147,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: ce702590689113c77b9777e394cd57cb]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6ab6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e6ab6.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_e6ab6.dir/CMakeCCompilerABI.c.o /tmp/ccNgMgxT.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aba1c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_aba1c.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_aba1c.dir/CMakeCCompilerABI.c.o /tmp/ccaIfKc8.s]
   ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
   ignore line: [COMPILER_PATH=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/]
   ignore line: [LIBRARY_PATH=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6ab6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e6ab6.dir/CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_e6ab6]
-  ignore line: [/cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6ab6.dir/link.txt --verbose=1]
-  ignore line: [/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/cc  -v -rdynamic CMakeFiles/cmTC_e6ab6.dir/CMakeCCompilerABI.c.o -o cmTC_e6ab6 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aba1c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_aba1c.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_aba1c]
+  ignore line: [/cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aba1c.dir/link.txt --verbose=1]
+  ignore line: [/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/cc  -v -rdynamic CMakeFiles/cmTC_aba1c.dir/CMakeCCompilerABI.c.o -o cmTC_aba1c ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper]
@@ -166,13 +166,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 12.1.0 (GCC) ]
   ignore line: [COMPILER_PATH=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/]
   ignore line: [LIBRARY_PATH=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e6ab6' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e6ab6.']
-  link line: [ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4FEuwU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e6ab6 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. CMakeFiles/cmTC_e6ab6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtend.o /lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_aba1c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_aba1c.']
+  link line: [ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTvm34a.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_aba1c /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. CMakeFiles/cmTC_aba1c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtend.o /lib/../lib64/crtn.o]
     arg [/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc4FEuwU.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccTvm34a.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -185,7 +185,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e6ab6] ==> ignore
+    arg [cmTC_aba1c] ==> ignore
     arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
     arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
     arg [/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o] ==> obj [/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o]
@@ -195,7 +195,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../..] ==> dir [/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../..]
-    arg [CMakeFiles/cmTC_e6ab6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_aba1c.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -227,10 +227,10 @@ Parsed C implicit link information from above output:
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs/ubana/ubana/PionMomentumLikelihood/Transformer/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1e104/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1e104.dir/build.make CMakeFiles/cmTC_1e104.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0e866/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0e866.dir/build.make CMakeFiles/cmTC_0e866.dir/build
 gmake[1]: Entering directory `/exp/uboone/app/users/nlane/NeutralKaonCode/srcs/ubana/ubana/PionMomentumLikelihood/Transformer/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1e104.dir/CMakeCXXCompilerABI.cpp.o
-/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/c++   -v -o CMakeFiles/cmTC_1e104.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_0e866.dir/CMakeCXXCompilerABI.cpp.o
+/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/c++   -v -o CMakeFiles/cmTC_0e866.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/c++
 Target: x86_64-pc-linux-gnu
@@ -238,8 +238,8 @@ Configured with: /scratch/workspace/art-build-base/v12_00_00-e26/SLF7/build/gcc/
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 12.1.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e104.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1e104.dir/'
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/cc1plus -quiet -v -iprefix /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/ -D_GNU_SOURCE /cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1e104.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccaHq1a5.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e866.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0e866.dir/'
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/cc1plus -quiet -v -iprefix /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/ -D_GNU_SOURCE /cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0e866.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccs9rQti.s
 GNU C++17 (GCC) version 12.1.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 12.1.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -268,15 +268,15 @@ GNU C++17 (GCC) version 12.1.0 (x86_64-pc-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: e9dba2130524ec85cea982823dc61c57
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e104.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1e104.dir/'
- as -v --64 -o CMakeFiles/cmTC_1e104.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccaHq1a5.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e866.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0e866.dir/'
+ as -v --64 -o CMakeFiles/cmTC_0e866.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccs9rQti.s
 GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
 COMPILER_PATH=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/
 LIBRARY_PATH=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e104.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1e104.dir/CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_1e104
-/cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e104.dir/link.txt --verbose=1
-/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/c++  -v -rdynamic CMakeFiles/cmTC_1e104.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1e104 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e866.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0e866.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_0e866
+/cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e866.dir/link.txt --verbose=1
+/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/c++  -v -rdynamic CMakeFiles/cmTC_0e866.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0e866 
 Using built-in specs.
 COLLECT_GCC=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/c++
 COLLECT_LTO_WRAPPER=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper
@@ -287,9 +287,9 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 12.1.0 (GCC) 
 COMPILER_PATH=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/
 LIBRARY_PATH=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1e104' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1e104.'
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXcWM06.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1e104 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. CMakeFiles/cmTC_1e104.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtend.o /lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1e104' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1e104.'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0e866' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0e866.'
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccx0YzXo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0e866 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. CMakeFiles/cmTC_0e866.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0e866' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0e866.'
 gmake[1]: Leaving directory `/exp/uboone/app/users/nlane/NeutralKaonCode/srcs/ubana/ubana/PionMomentumLikelihood/Transformer/build/CMakeFiles/CMakeTmp'
 
 
@@ -323,10 +323,10 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs/ubana/ubana/PionMomentumLikelihood/Transformer/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1e104/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1e104.dir/build.make CMakeFiles/cmTC_1e104.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0e866/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0e866.dir/build.make CMakeFiles/cmTC_0e866.dir/build]
   ignore line: [gmake[1]: Entering directory `/exp/uboone/app/users/nlane/NeutralKaonCode/srcs/ubana/ubana/PionMomentumLikelihood/Transformer/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_1e104.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/c++   -v -o CMakeFiles/cmTC_1e104.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_0e866.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/c++   -v -o CMakeFiles/cmTC_0e866.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/c++]
   ignore line: [Target: x86_64-pc-linux-gnu]
@@ -334,8 +334,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 12.1.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e104.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1e104.dir/']
-  ignore line: [ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/cc1plus -quiet -v -iprefix /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/ -D_GNU_SOURCE /cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1e104.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccaHq1a5.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e866.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0e866.dir/']
+  ignore line: [ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/cc1plus -quiet -v -iprefix /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/ -D_GNU_SOURCE /cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0e866.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccs9rQti.s]
   ignore line: [GNU C++17 (GCC) version 12.1.0 (x86_64-pc-linux-gnu)]
   ignore line: [	compiled by GNU C version 12.1.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -364,15 +364,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: e9dba2130524ec85cea982823dc61c57]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e104.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1e104.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_1e104.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccaHq1a5.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e866.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0e866.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_0e866.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccs9rQti.s]
   ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
   ignore line: [COMPILER_PATH=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/]
   ignore line: [LIBRARY_PATH=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e104.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1e104.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_1e104]
-  ignore line: [/cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e104.dir/link.txt --verbose=1]
-  ignore line: [/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/c++  -v -rdynamic CMakeFiles/cmTC_1e104.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1e104 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e866.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0e866.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_0e866]
+  ignore line: [/cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e866.dir/link.txt --verbose=1]
+  ignore line: [/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/c++  -v -rdynamic CMakeFiles/cmTC_0e866.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0e866 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper]
@@ -383,13 +383,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 12.1.0 (GCC) ]
   ignore line: [COMPILER_PATH=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/]
   ignore line: [LIBRARY_PATH=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1e104' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1e104.']
-  link line: [ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXcWM06.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1e104 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. CMakeFiles/cmTC_1e104.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtend.o /lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0e866' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0e866.']
+  link line: [ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/collect2 -plugin /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so -plugin-opt=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccx0YzXo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0e866 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0 -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../.. CMakeFiles/cmTC_0e866.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtend.o /lib/../lib64/crtn.o]
     arg [/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../libexec/gcc/x86_64-pc-linux-gnu/12.1.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccXcWM06.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccx0YzXo.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -402,7 +402,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_1e104] ==> ignore
+    arg [cmTC_0e866] ==> ignore
     arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
     arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
     arg [/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o] ==> obj [/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/crtbegin.o]
@@ -412,7 +412,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../..] ==> dir [/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/../lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../..]
-    arg [CMakeFiles/cmTC_1e104.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_0e866.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -442,13 +442,13 @@ Parsed CXX implicit link information from above output:
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs/ubana/ubana/PionMomentumLikelihood/Transformer/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_90e9f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_90e9f.dir/build.make CMakeFiles/cmTC_90e9f.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bd872/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bd872.dir/build.make CMakeFiles/cmTC_bd872.dir/build
 gmake[1]: Entering directory `/exp/uboone/app/users/nlane/NeutralKaonCode/srcs/ubana/ubana/PionMomentumLikelihood/Transformer/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_90e9f.dir/CheckFunctionExists.c.o
-/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_90e9f.dir/CheckFunctionExists.c.o -c /cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/share/cmake-3.24/Modules/CheckFunctionExists.c
-Linking C executable cmTC_90e9f
-/cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90e9f.dir/link.txt --verbose=1
-/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_90e9f.dir/CheckFunctionExists.c.o -o cmTC_90e9f  -lpthread 
+Building C object CMakeFiles/cmTC_bd872.dir/CheckFunctionExists.c.o
+/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_bd872.dir/CheckFunctionExists.c.o -c /cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/share/cmake-3.24/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bd872
+/cvmfs/larsoft.opensciencegrid.org/products/cmake/v3_24_1/Linux64bit+3.10-2.17/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd872.dir/link.txt --verbose=1
+/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_bd872.dir/CheckFunctionExists.c.o -o cmTC_bd872  -lpthread 
 gmake[1]: Leaving directory `/exp/uboone/app/users/nlane/NeutralKaonCode/srcs/ubana/ubana/PionMomentumLikelihood/Transformer/build/CMakeFiles/CMakeTmp'
 
 

@@ -152,6 +152,14 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
   /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/stl_vector.h \
   /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/stl_bvector.h \
   /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/vector.tcc \
+  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/algorithm \
+  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/stl_algo.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/algorithmfwd.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/stl_heap.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/stl_tempbuf.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/uniform_int_dist.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/pstl/glue_algorithm_defs.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/pstl/execution_defs.h \
   /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TFile.h \
   /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/atomic \
   /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/atomic_base.h \
@@ -210,14 +218,6 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
   /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/poly_hermite.tcc \
   /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/poly_laguerre.tcc \
   /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/riemann_zeta.tcc \
-  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/algorithm \
-  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/stl_algo.h \
-  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/algorithmfwd.h \
-  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/stl_heap.h \
-  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/stl_tempbuf.h \
-  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/uniform_int_dist.h \
-  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/pstl/glue_algorithm_defs.h \
-  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/pstl/execution_defs.h \
   /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/ROOT/RStringView.hxx \
   /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/ROOT/TypeTraits.hxx \
   /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/memory \
@@ -5066,8 +5066,72 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
   /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/torch/csrc/api/include/torch/optim/schedulers/step_lr.h \
   /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/torch/csrc/api/include/torch/sparse.h \
   /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/torch/csrc/api/include/torch/special.h \
-  /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/torch/csrc/api/include/torch/version.h
+  /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/torch/csrc/api/include/torch/version.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TCanvas.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TPad.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TVirtualPad.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TAttPad.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TQObject.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TVirtualQConnection.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TInterpreter.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TInterpreterValue.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/GuiTypes.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/Buttons.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TAttBBox2D.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TAttCanvas.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TH1F.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TH1.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TAxis.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TAttAxis.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TArrayC.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TArrayS.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TArrayF.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/Foption.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/ROOT/EExecutionPolicy.hxx \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TVectorFfwd.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TVectorDfwd.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TFitResultPtr.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/cfloat \
+  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include/float.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TH2F.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TH2.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TMatrixFBasefwd.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TMatrixDBasefwd.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TGraph.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TStyle.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TAttText.h \
+  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TColor.h
 
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TStyle.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TMatrixFBasefwd.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TH2.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include/float.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TFitResultPtr.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TVectorDfwd.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TVectorFfwd.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TArrayS.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TArrayC.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TAttCanvas.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TAttBBox2D.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/Buttons.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TInterpreter.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TQObject.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TAttPad.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/torch/csrc/api/include/torch/version.h:
 
@@ -6311,6 +6375,8 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/linalg_cross_meta.h:
 
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/Foption.h:
+
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/linalg_cross_native.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/linalg_cholesky_native.h:
@@ -6662,6 +6728,8 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/c10/util/intrusive_ptr.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/batch_norm_gather_stats_with_counts_ops.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TAxis.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/batch_norm_gather_stats_ops.h:
 
@@ -7034,6 +7102,8 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_sobol_engine_draw_ops.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_scaled_dot_product_flash_attention_backward.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TGraph.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/kaiser_window_ops.h:
 
@@ -8051,6 +8121,8 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/xor.h:
 
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TCanvas.h:
+
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_reshape_from_tensor.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/threshold.h:
@@ -8199,6 +8271,8 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/einsum_ops.h:
 
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TVirtualPad.h:
+
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/row_indices_copy.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/isinf_native.h:
@@ -8254,6 +8328,8 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/c10/core/TensorOptions.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/alias_copy_ops.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TMatrixDBasefwd.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_foreach_maximum_native.h:
 
@@ -8393,6 +8469,8 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/special_shifted_chebyshev_polynomial_v_ops.h:
 
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TInterpreterValue.h:
+
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/nonzero_static_native.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/frobenius_norm.h:
@@ -8408,6 +8486,8 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/c10/util/Float8_e4m3fn-inl.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/fft_ifft2_ops.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TArrayF.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/special_erfcx_meta.h:
 
@@ -8489,6 +8569,8 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/avg_pool3d_native.h:
 
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TH1.h:
+
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/reciprocal_meta.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/silu_ops.h:
@@ -8542,6 +8624,8 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/c10/util/C++17.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/huber_loss_ops.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TH1F.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/elu_backward_meta.h:
 
@@ -9009,32 +9093,6 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/memoryfwd.h:
 
-/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/uniform_int_dist.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/silu.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_upsample_nearest_exact3d.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/sparse_bsc_tensor_ops.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/initializer_list:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/argmax_ops.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/c10/core/SymFloat.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/to_mkldnn.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_cast_Half_native.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_sparse_csr_tensor_unsafe_native.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/algorithmfwd.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/c10/core/TensorImpl.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/pow_ops.h:
-
 /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/cxxabi_forced.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/poly_hermite.tcc:
@@ -9094,6 +9152,42 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/beta_function.tcc:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/lift_fresh_ops.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/core/QuantizerBase.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/nonzero_numpy.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/logsumexp_ops.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/topk.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ScalarOps.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_upsample_bilinear2d_aa_ops.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/conj_physical_native.h:
+
+/usr/include/stdint.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_fake_quantize_per_tensor_affine_cachemask_tensor_qparams.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/iterator:
+
+/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/specfun.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_fft_c2c_native.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/ostream_insert.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/isfinite_ops.h:
+
+/usr/include/bits/nan.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/torch/csrc/api/include/torch/nn/options/fold.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/log_sigmoid_backward.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/exponential_ops.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/shared_ptr_base.h:
 
@@ -9201,6 +9295,22 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/basic_string.h:
 
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/argmax_ops.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/c10/core/SymFloat.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/to_mkldnn.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_cast_Half_native.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_sparse_csr_tensor_unsafe_native.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/algorithmfwd.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/c10/core/TensorImpl.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/pow_ops.h:
+
 /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/string:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/t_ops.h:
@@ -9271,10 +9381,6 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_to_sparse_csc_ops.h:
 
-/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/ostream_insert.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/isfinite_ops.h:
-
 /usr/include/inttypes.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/new_full_ops.h:
@@ -9312,6 +9418,16 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 /usr/include/bits/sigset.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_masked_softmax_backward_ops.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_unsafe_view.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_fft_r2c.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/resolve_neg_ops.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/addr_native.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/limits:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_weight_norm.h:
 
@@ -9367,6 +9483,16 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /usr/include/bits/types.h:
 
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/silu.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_upsample_nearest_exact3d.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/sparse_bsc_tensor_ops.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/initializer_list:
+
+/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/uniform_int_dist.h:
+
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_values.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/c10/util/Array.h:
@@ -9384,22 +9510,6 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/bitwise_or_ops.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/stl_pair.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_histogramdd_from_bin_tensors.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/torch/csrc/api/include/torch/nn/options/embedding.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/matrix_power_native.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/c10/core/Backend.h:
-
-/usr/include/stdio.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/iterator:
-
-/usr/include/stdint.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_fake_quantize_per_tensor_affine_cachemask_tensor_qparams.h:
 
 /usr/include/bits/locale.h:
 
@@ -9433,6 +9543,8 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/unique_dim_consecutive_ops.h:
 
+/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/bessel_function.tcc:
+
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/batch_norm_backward_reduce_ops.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_foreach_sub.h:
@@ -9452,22 +9564,6 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_embedding_bag_backward_native.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_embedding_bag_sparse_backward_ops.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/torch/csrc/api/include/torch/nn/options/vision.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_neg_view_copy.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/ones.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_flash_attention_forward_ops.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/threshold_backward_meta.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/detail/PrivateUse1HooksInterface.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/unsafe_split_with_sizes_ops.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/dequantize_ops.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/core/boxing/BoxedKernel.h:
 
@@ -9492,8 +9588,6 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 /exp/uboone/app/users/nlane/NeutralKaonCode/srcs/ubana/ubana/PionMomentumLikelihood/Transformer/main.cpp:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/c10/util/Half-inl.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/bessel_function.tcc:
 
 /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/range_access.h:
 
@@ -9524,6 +9618,8 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/atan2_meta.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_index_put_impl.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TH2F.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/special_bessel_j1.h:
 
@@ -9655,16 +9751,6 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/clocale:
 
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_scaled_mm.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/TensorNames.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_reshape_alias_ops.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/where_ops.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/linalg_lu_solve.h:
-
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/trace_native.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/fliplr_ops.h:
@@ -9749,6 +9835,12 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/conv_tbc_backward.h:
 
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/threshold_backward_meta.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/detail/PrivateUse1HooksInterface.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_flash_attention_forward_ops.h:
+
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/conj_physical.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_upsample_nearest_exact1d.h:
@@ -9792,12 +9884,6 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/hardshrink_backward_meta.h:
 
 /usr/include/wctype.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_foreach_erf.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/view_as_complex_native.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/exception_ptr.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/c10/core/impl/PyObjectSlot.h:
 
@@ -9907,6 +9993,16 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_pdist_backward_ops.h:
 
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/unsafe_split_with_sizes_ops.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/torch/csrc/api/include/torch/nn/options/vision.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_neg_view_copy.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/ones.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/dequantize_ops.h:
+
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/histc_ops.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/l1_loss.h:
@@ -9934,10 +10030,6 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/tan_meta.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_test_autograd_multiple_dispatch_ops.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_to_dense_ops.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/trunc.h:
 
 /usr/include/bits/errno.h:
 
@@ -10105,21 +10197,7 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/meshgrid.h:
 
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/nonzero_numpy.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/logsumexp_ops.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/core/QuantizerBase.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/topk.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ScalarOps.h:
-
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_linalg_slogdet.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/adjoint_ops.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/conv2d_ops.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/ratio:
 
@@ -10149,9 +10227,39 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TDictionary.h:
 
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_upsample_bilinear2d_aa_ops.h:
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_to_dense_ops.h:
 
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/conj_physical_native.h:
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/trunc.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_foreach_erf.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/view_as_complex_native.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/exception_ptr.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_scaled_mm.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/TensorNames.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/conv2d_ops.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/adjoint_ops.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_reshape_alias_ops.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/where_ops.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/linalg_lu_solve.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_histogramdd_from_bin_tensors.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/torch/csrc/api/include/torch/nn/options/embedding.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/matrix_power_native.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/c10/core/Backend.h:
+
+/usr/include/stdio.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/im2col.h:
 
@@ -10170,6 +10278,12 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_foreach_sigmoid_ops.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/flipud_ops.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_histogramdd_bin_edges.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_has_same_storage_numel.h:
+
+/usr/include/getopt.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_foreach_log1p_ops.h:
 
@@ -10236,6 +10350,10 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/special_zeta_ops.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_nested_view_from_buffer_copy_ops.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/to_mkldnn_backward.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/special_legendre_polynomial_p.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/zeros.h:
 
@@ -10310,38 +10428,6 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/scalar_tensor.h:
 
 /usr/include/math.h:
-
-/usr/include/bits/nan.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/torch/csrc/api/include/torch/nn/options/fold.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/log_sigmoid_backward.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/exponential_ops.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/specfun.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_fft_c2c_native.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_unsafe_view.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_fft_r2c.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/resolve_neg_ops.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/addr_native.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/limits:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/special_legendre_polynomial_p.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/to_mkldnn_backward.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_histogramdd_bin_edges.h:
-
-/usr/include/getopt.h:
-
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_has_same_storage_numel.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/c10/util/DimVector.h:
 
@@ -10974,6 +11060,8 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/histc.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/clone_ops.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/ROOT/EExecutionPolicy.hxx:
 
 /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/iomanip:
 
@@ -12789,6 +12877,8 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/log_sigmoid_backward_ops.h:
 
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TColor.h:
+
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/atleast_2d.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/log_sigmoid_forward_ops.h:
@@ -12913,9 +13003,9 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/miopen_batch_norm.h:
 
-/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/sigmoid_backward_ops.h:
-
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_fake_quantize_learnable_per_tensor_affine.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/sigmoid_backward_ops.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/addcdiv_ops.h:
 
@@ -13839,7 +13929,11 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/special_scaled_modified_bessel_k0.h:
 
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TAttAxis.h:
+
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/special_shifted_chebyshev_polynomial_t.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/cfloat:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/special_shifted_chebyshev_polynomial_t_ops.h:
 
@@ -14561,6 +14655,8 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_prelu_kernel_native.h:
 
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TVirtualQConnection.h:
+
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/fix_native.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_propagate_xla_data_native.h:
@@ -14599,6 +14695,8 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_softmax_meta.h:
 
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TPad.h:
+
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_softmax_backward_data_meta.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_dirichlet_grad_native.h:
@@ -14608,6 +14706,8 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_sparse_softmax_backward_data.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_sparse_bsr_tensor_unsafe_native.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TAttText.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_sparse_coo_tensor_with_dims_native.h:
 
@@ -14690,6 +14790,8 @@ CMakeFiles/main.dir/main.cpp.o: /exp/uboone/app/users/nlane/NeutralKaonCode/srcs
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_triton_multi_head_attention_native.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_triton_scaled_dot_attention_native.h:
+
+/cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/GuiTypes.h:
 
 /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/ATen/ops/_unique_native.h:
 

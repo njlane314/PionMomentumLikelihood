@@ -129,6 +129,33 @@ CMakeFiles/main.dir/main.cpp.o: \
  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/stl_vector.h \
  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/stl_bvector.h \
  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/vector.tcc \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/algorithm \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/stl_algo.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/algorithmfwd.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/stl_heap.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/stl_tempbuf.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/uniform_int_dist.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/pstl/glue_algorithm_defs.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/pstl/execution_defs.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/cmath \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/specfun.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/limits \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/gamma.tcc \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/special_function_util.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/bessel_function.tcc \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/beta_function.tcc \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/ell_integral.tcc \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/exp_integral.tcc \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/hypergeometric.tcc \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/legendre_function.tcc \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/modified_bessel_func.tcc \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/poly_hermite.tcc \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/poly_laguerre.tcc \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/riemann_zeta.tcc \
  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TFile.h \
  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/atomic \
  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/atomic_base.h \
@@ -162,33 +189,6 @@ CMakeFiles/main.dir/main.cpp.o: \
  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/RVersion.h \
  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TString.h \
  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TMathBase.h \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/cmath \
- /usr/include/math.h /usr/include/bits/huge_val.h \
- /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
- /usr/include/bits/inf.h /usr/include/bits/nan.h \
- /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/specfun.h \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/limits \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/gamma.tcc \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/special_function_util.h \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/bessel_function.tcc \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/beta_function.tcc \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/ell_integral.tcc \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/exp_integral.tcc \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/hypergeometric.tcc \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/legendre_function.tcc \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/modified_bessel_func.tcc \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/poly_hermite.tcc \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/poly_laguerre.tcc \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/tr1/riemann_zeta.tcc \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/algorithm \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/stl_algo.h \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/algorithmfwd.h \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/stl_heap.h \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/stl_tempbuf.h \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/bits/uniform_int_dist.h \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/pstl/glue_algorithm_defs.h \
- /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/pstl/execution_defs.h \
  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/ROOT/RStringView.hxx \
  /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/ROOT/TypeTraits.hxx \
  /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/memory \
@@ -5034,4 +5034,38 @@ CMakeFiles/main.dir/main.cpp.o: \
  /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/torch/csrc/api/include/torch/optim/schedulers/step_lr.h \
  /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/torch/csrc/api/include/torch/sparse.h \
  /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/torch/csrc/api/include/torch/special.h \
- /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/torch/csrc/api/include/torch/version.h
+ /cvmfs/larsoft.opensciencegrid.org/products/libtorch/v2_1_1b/Linux64bit+3.10-2.17-e26/include/torch/csrc/api/include/torch/version.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TCanvas.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TPad.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TVirtualPad.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TAttPad.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TQObject.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TVirtualQConnection.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TInterpreter.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TInterpreterValue.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/GuiTypes.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/Buttons.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TAttBBox2D.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TAttCanvas.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TH1F.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TH1.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TAxis.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TAttAxis.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TArrayC.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TArrayS.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TArrayF.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/Foption.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/ROOT/EExecutionPolicy.hxx \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TVectorFfwd.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TVectorDfwd.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TFitResultPtr.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/include/c++/12.1.0/cfloat \
+ /cvmfs/larsoft.opensciencegrid.org/products/gcc/v12_1_0/Linux64bit+3.10-2.17/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include/float.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TH2F.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TH2.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TMatrixFBasefwd.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TMatrixDBasefwd.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TGraph.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TStyle.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TAttText.h \
+ /cvmfs/larsoft.opensciencegrid.org/products/root/v6_28_12/Linux64bit+3.10-2.17-e26-p3915-prof/include/TColor.h

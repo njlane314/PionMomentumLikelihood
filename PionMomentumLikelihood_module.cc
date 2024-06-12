@@ -65,21 +65,21 @@ void ubpiontraj::PionMomentumLikelihood::analyze(art::Event const& event)
 
    art::FindMany<simb::MCParticle, anab::BackTrackerHitMatchingData>* m_RecoHitSimParticleAssoc;
    art::FindManyP<anab::Calorimetry>* m_RecoTrackCaloAssoc;
-   
-   if(!event.getByLabel(m_SimParticleLabel, simParticleHandle)){
-      if(m_Debug){
+
+   if (!event.getByLabel(m_SimParticleLabel, simParticleHandle)) {
+      if (m_Debug) {
          std::cerr << ">>> [PionMomentumLikelihood] Error! Could not get simulation handle for label: " << m_SimParticleLabel << std::endl;
       }
       return;
    }
 
-   if(!event.getByLabel(m_RecoParticleLabel, recoParticleHandle)) 
+   if (!event.getByLabel(m_RecoParticleLabel, recoParticleHandle)) 
       throw cet::exception("PionReconstructionAnalyser") << "No PFParticle Data Products Found!" << std::endl;
 
-   if(!event.getByLabel(m_RecoTrackLabel, recoTrackHandle))
+   if (!event.getByLabel(m_RecoTrackLabel, recoTrackHandle))
       throw cet::exception("PionReconstrucionAnalyser") << "No Track Data Products Found!" << std::endl;
 
-   if(!event.getByLabel(m_RecoHitLabel, recoHitHandle)) 
+   if (!event.getByLabel(m_RecoHitLabel, recoHitHandle)) 
       throw cet::exception("PionReconstructionAnalyser") << "No Hit Data Products Found!" << std::endl;
 
    art::fill_ptr_vector(simParticles, simParticleHandle);   
@@ -93,15 +93,15 @@ void ubpiontraj::PionMomentumLikelihood::analyze(art::Event const& event)
    m_RecoHitSimParticleAssoc = new art::FindMany<simb::MCParticle, anab::BackTrackerHitMatchingData>(recoHitHandle, event, m_RecoHitSimParticleLabel);
    m_RecoTrackCaloAssoc = new art::FindManyP<anab::Calorimetry>(recoTracks, event, m_RecoCaloLabel);
 
-   if(m_Debug){
+   if (m_Debug) {
       std::cout << "///----------------------------------------" << std::endl;
       std::cout << ">>> [PionMomentumLikelihood] Analysing event..." << std::endl;
    }
 
-   for(art::Ptr<simb::MCParticle>& sim : simParticles){
-      if(sim->Mother() != 0)  continue;
-      if(abs(sim->PdgCode()) == 211 && (sim->Process() == "decay" || sim->Process() == "primary")){
-         if(m_Debug){
+   for (art::Ptr<simb::MCParticle>& sim : simParticles) {
+      if (sim->Mother() != 0)  continue;
+      if (abs(sim->PdgCode()) == 211 && (sim->Process() == "decay" || sim->Process() == "primary")) {
+         if (m_Debug) {
             std::cout << ">>> [PionMomentumLikelihood] Found pion!" << std::endl;
          }
          
@@ -118,88 +118,91 @@ void ubpiontraj::PionMomentumLikelihood::analyze(art::Event const& event)
          m_completeness = 0.;
 
          bool foundpion = false;
-         for(const art::Ptr<recob::PFParticle>& reco : recoParticles){
+         for (const art::Ptr<recob::PFParticle>& reco : recoParticles) {
             std::vector<art::Ptr<recob::Track>> recoTracks = m_RecoParticleTrackAssoc->at(reco.key());
-            if(recoTracks.size() != 1) continue;
+            if (recoTracks.size() != 1) continue;
    
-            for(const art::Ptr<recob::Track>& trk : recoTracks){
+            for (const art::Ptr<recob::Track>& trk : recoTracks) {
                std::vector<art::Ptr<recob::Hit>> hitVec = m_RecoTrackHitAssoc->at(trk.key());
                std::vector<art::Ptr<anab::Calorimetry>> caloVec = m_RecoTrackCaloAssoc->at(trk.key());
 
-               std::unordered_map<int, double> trackMap;
+               std::unordered_map<int, int> trackMap;
                int maxHits = -1;
                
                std::vector<simb::MCParticle const*> depositingSimParticles;
                std::vector<anab::BackTrackerHitMatchingData const*> matchingHits;
                simb::MCParticle const* matchedSimParticle = nullptr;
 
-               double totalEnergy = 0.0;
-               double matchedEnergy = 0.0;
+               int totalSpacePoints = 0;
+               int matchedSpacePoints = 0;
 
-               for(size_t h = 0; h < hitVec.size(); ++h){
+               for (size_t h = 0; h < hitVec.size(); ++h) {
                   m_RecoHitSimParticleAssoc->get(hitVec[h].key(), depositingSimParticles, matchingHits);
 
-                  for(size_t p = 0; p < depositingSimParticles.size(); ++p){
+                  for (size_t p = 0; p < depositingSimParticles.size(); ++p) {
                      trackMap[depositingSimParticles[p]->TrackId()]++; 
 
-                     if(trackMap[depositingSimParticles[p]->TrackId()] > maxHits){
+                     if (trackMap[depositingSimParticles[p]->TrackId()] > maxHits) {
                         maxHits = trackMap[depositingSimParticles[p]->TrackId()];
                         matchedSimParticle = depositingSimParticles[p];
                      }
 
-                     totalEnergy += matchingHits[p]->energy;
-                     if(depositingSimParticles[p]->TrackId() == sim->TrackId()){
-                        matchedEnergy += matchingHits[p]->energy;
+                     if (depositingSimParticles[p]->TrackId() == sim->TrackId()) {
+                        matchedSpacePoints++;
                      }
                   }
+                  totalSpacePoints++;
                }
 
-               if(matchedSimParticle == nullptr) continue; 
-               if(matchedSimParticle->TrackId() != sim->TrackId()) continue;
+               if (matchedSimParticle == nullptr) continue; 
+               if (matchedSimParticle->TrackId() != sim->TrackId()) continue;
                foundpion = true;
                count += 1; 
-               if(m_Debug){
+               if (m_Debug) {
                   std::cout << ">>> [PionMomentumLikelihood] Found a matching simulation pion!" << std::endl;
                }
 
-               for(size_t p = 0; p < caloVec.size(); p++){
-                  if(caloVec.at(p)->PlaneID().Plane != 2) continue;
+               for (size_t p = 0; p < caloVec.size(); p++) {
+                  if (caloVec.at(p)->PlaneID().Plane != 2) continue;
 
                   art::Ptr<anab::Calorimetry> calo = caloVec.at(p);
-                  if(calo->XYZ().size() < 2) continue; 
+                  if (calo->XYZ().size() < 2) continue; 
 
-                  for(size_t sp = 0; sp < calo->XYZ().size(); sp++){
-                     const auto& coord = calo->XYZ().at(sp);
-                     double dEdx = calo->dEdx().at(sp);
+                  std::vector<TVector3> coords;
+                  for (const auto& pos : calo->XYZ()) {
+                      coords.emplace_back(pos.X(), pos.Y(), pos.Z());
+                  }
 
+                  TVector3 vec = coords.back() - coords.front();
+                  TVector3 momentum(sim->Px(), sim->Py(), sim->Pz());
+                  if (vec.Dot(momentum) < 0) {
+                     std::reverse(coords.begin(), coords.end());
+                  }
+
+                  for (const auto& coord : coords) {
                      m_x.push_back(coord.X());
                      m_y.push_back(coord.Y());
                      m_z.push_back(coord.Z());
-                     m_e.push_back(dEdx);
                   }
                }
 
-               if(totalEnergy > 0){
-                  m_purity = static_cast<float>(matchedEnergy) / totalEnergy;
+               if (totalSpacePoints > 0) {
+                  m_purity = static_cast<float>(matchedSpacePoints) / totalSpacePoints;
                }
 
-               double totalTrueEnergy = 0.0;
-               for(size_t i = 0; i < sim->NumberTrajectoryPoints(); ++i){
-                  totalTrueEnergy += sim->E(i);
-               }
-               
-               if(totalTrueEnergy > 0){
-                  m_completeness = matchedEnergy / totalTrueEnergy;
+               double totalTrueSpacePoints = sim->NumberTrajectoryPoints();
+               if (totalTrueSpacePoints > 0) {
+                  m_completeness = static_cast<float>(matchedSpacePoints) / totalTrueSpacePoints;
                }
 
-               if(foundpion) break;
+               if (foundpion) break;
             }      
 
-            if(foundpion) break;
+            if (foundpion) break;
          }
 
-         if(foundpion){
-            if(m_Debug){
+         if (foundpion) {
+            if (m_Debug) {
                std::cout << ">>> [PionMomentumLikelihood] Filling tree for a pion..." << std::endl;
             }
 
@@ -214,7 +217,7 @@ void ubpiontraj::PionMomentumLikelihood::analyze(art::Event const& event)
       }
    }
 
-   if(m_Debug){
+   if (m_Debug) {
       std::cout << ">>> [PionMomentumLikelihood] Finished analysing event!" << std::endl;
    }
 }

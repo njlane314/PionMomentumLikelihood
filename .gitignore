@@ -2,3 +2,5 @@
 *.db
 Analysis/Plots/*
 Extern/*
+Transformer/build/*
+Transformer/bin/*
