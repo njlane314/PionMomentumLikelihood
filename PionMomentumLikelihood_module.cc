@@ -187,12 +187,14 @@ void ubpiontraj::PionMomentumLikelihood::analyze(art::Event const& event)
                }
 
                if (totalSpacePoints > 0) {
-                  m_purity = static_cast<float>(matchedSpacePoints) / totalSpacePoints;
+                  m_purity = static_cast<double>(matchedSpacePoints) / totalSpacePoints;
+                  std::cout << m_purity << std::endl;
                }
 
                double totalTrueSpacePoints = sim->NumberTrajectoryPoints();
                if (totalTrueSpacePoints > 0) {
-                  m_completeness = static_cast<float>(matchedSpacePoints) / totalTrueSpacePoints;
+                  m_completeness = static_cast<double>(matchedSpacePoints) / totalTrueSpacePoints;
+                  std::cout << m_completeness << std::endl;
                }
 
                if (foundpion) break;
