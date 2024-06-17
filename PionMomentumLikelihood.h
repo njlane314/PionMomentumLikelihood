@@ -26,6 +26,7 @@
 #include "lardataobj/RecoBase/Shower.h"
 #include "lardataobj/RecoBase/Hit.h"
 #include "lardataobj/RecoBase/Vertex.h"
+#include "lardataobj/RecoBase/SpacePoint.h"
 #include "lardataobj/RecoBase/PFParticleMetadata.h"
 #include "lardataobj/AnalysisBase/BackTrackerMatchingData.h"
 #include "lardataobj/AnalysisBase/ParticleID.h"
@@ -76,7 +77,7 @@ class ubpiontraj::PionMomentumLikelihood : public art::EDAnalyzer
       
       TTree* m_Tree;
 
-      double m_px, m_py, m_pz, m_purity, m_completeness;
+      double m_px, m_py, m_pz, m_cleanliness, m_completeness;
       int m_pdg;
       std::vector<double> m_x, m_y, m_z, m_e;
 };

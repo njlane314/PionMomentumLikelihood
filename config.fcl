@@ -3,6 +3,9 @@ BEGIN_PROLOG
 pion_momentum_likelihood:
 {
         module_type: PionMomentumLikelihood
+
+        debug: true
+
         sim_particle_label: "largeant"
         reco_particle_label: "pandora"
         reco_track_label: "pandora"
@@ -10,7 +13,6 @@ pion_momentum_likelihood:
         reco_tracksimparticlelabel: "pandora"
         reco_hitsimparticle_label: "gaushitTruthMatch"
         reco_calo_label: "pandoracali"
-        debug: true
 }
 
 END_PROLOG

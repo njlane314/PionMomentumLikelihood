@@ -1,4 +1,4 @@
-#include "jobs/configs/standard_config.fcl"
+#include "config.fcl"
 #include "services_microboone.fcl"
 
 process_name: PionMomentumLikelihood

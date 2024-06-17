@@ -67,6 +67,16 @@ std::vector<PionData> readRootFile(const std::string& fileName) {
             continue; 
         }
 
+        double initial_x = sp_x->front();
+        double initial_y = sp_y->front();
+        double initial_z = sp_z->front();
+
+        for (size_t j = 0; j < sp_x->size(); ++j) {
+            (*sp_x)[j] -= initial_x;
+            (*sp_y)[j] -= initial_y;
+            (*sp_z)[j] -= initial_z;
+        }
+
         double vec_x = sp_x->back() - sp_x->front();
         double vec_y = sp_y->back() - sp_y->front();
         double vec_z = sp_z->back() - sp_z->front();
@@ -266,7 +276,6 @@ int main(int argc, char* argv[]) {
         std::cout << "Final MSE: " << mse.item<double>() << std::endl;
         std::cout << "Final MAE: " << mae.item<double>() << std::endl;
 
-        // ROOT Plotting
         TCanvas *c1 = new TCanvas("c1", "Training Loss", 800, 600);
         TH1F *h1 = new TH1F("h1", "Training Loss per Epoch;Epoch;Loss", 10, 0, 10);
         for (size_t i = 0; i < epoch_losses.size(); ++i) {
@@ -282,7 +291,6 @@ int main(int argc, char* argv[]) {
         g1->SetTitle("Predictions vs Targets;Targets;Predictions");
         g1->Draw("AP");
 
-        // Plot individual targets
         std::vector<const char*> target_labels = {"px", "py", "pz", "purity", "completeness"};
         std::vector<TCanvas*> canvases;
         std::vector<TGraph*> graphs;
@@ -299,7 +307,6 @@ int main(int argc, char* argv[]) {
             graphs.push_back(g);
         }
 
-        // Plot histograms of prediction errors
         std::vector<TH1F*> error_histograms;
         for (int t = 0; t < 5; ++t) {
             TH1F *h = new TH1F(("h_error_" + std::to_string(t)).c_str(), (std::string("Prediction Error ") + target_labels[t] + ";Error;Counts").c_str(), 100, -1, 1);
@@ -316,7 +323,6 @@ int main(int argc, char* argv[]) {
             error_histograms[t]->Draw();
         }
 
-        // Plot correlation matrix
         TCanvas *c9 = new TCanvas("c9", "Correlation Matrix", 800, 600);
         TH2F *h_corr = new TH2F("h_corr", "Correlation Matrix;Targets;Predictions", 5, 0, 5, 5, 0, 5);
         for (int i = 0; i < 5; ++i) {
@@ -329,7 +335,7 @@ int main(int argc, char* argv[]) {
 
         c1->SaveAs("training_loss.png");
         c2->SaveAs("predictions_vs_targets.png");
-        for (int t = 0; t < 5; ++t) {
+        for (int t = 0; t < 5; t++) {
             canvases[t]->SaveAs((std::string("predictions_vs_targets_") + target_labels[t] + ".png").c_str());
         }
         c8->SaveAs("prediction_errors.png");
